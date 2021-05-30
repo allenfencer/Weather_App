@@ -77,8 +77,9 @@ class BodyDetails extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.fromLTRB(20, 25, 20, 5),
+            padding: EdgeInsets.all(10),
             height: 300,
+            alignment: Alignment.center,
             width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
